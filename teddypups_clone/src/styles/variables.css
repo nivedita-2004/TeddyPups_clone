@@ -1,0 +1,128 @@
+/* ==========================================================================
+   TeddyPups Design System Tokens & Typography
+   Recovered directly from primary reference (https://puppy.instabizweb.com/)
+   ========================================================================== */
+
+/* --- 1. Font Registrations (@font-face) --- */
+
+/* Fraunces - Editorial display and heading serif */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/fraunces-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/fraunces-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Figtree - Clean geometric sans for body, buttons, and UI */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('/assets/fonts/figtree-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('/assets/fonts/figtree-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Shantell Sans - Playful handwritten script for stickers and doodles */
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url('/assets/fonts/shantell-sans-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url('/assets/fonts/shantell-sans-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* --- 2. Design System Variables --- */
+:root {
+  /* Typography Families */
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-plush: 'Fraunces', Georgia, serif;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-hand: 'Shantell Sans', cursive, sans-serif;
+  --font-scrawl: 'Shantell Sans', cursive, sans-serif;
+
+  /* Colors (Primary Reference Palette) */
+  --color-cocoa: #2a170e;
+  --color-cocoa-soft: #5a3a28;
+  --color-night: #24130b;
+  --color-toffee: #c2622b;
+  --color-toffee-deep: #a24a1a;
+  --color-toffee-ink: #8e3f15;
+  --color-honey: #f2be6b;
+  --color-honey-soft: #fbe3b4;
+  --color-milk: #fffdf8;
+  --color-cream: #fffdf8;
+  --color-parchment: #f6efe4;
+  --color-sand: #eee4d5;
+  --color-border: #e8dccb;
+  --color-border-subtle: #f0e6d8;
+  --color-sky: #bfddf5;
+  --color-sky-deep: #2f6e9e;
+  --color-blush: #f9cdbf;
+  --color-whatsapp: #1f7a4d;
+  --color-whatsapp-hover: #17653e;
+
+  /* Dimensions & Layout */
+  --header-height: 4.75rem;
+  --top-ribbon-height: 2.25rem;
+  --max-width: 1240px;
+  --max-width-wide: 1440px;
+  --content-padding: clamp(1rem, 4vw, 3.5rem);
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+  --radius-full: 9999px;
+
+  /* Elevation & Shadows */
+  --shadow-btn: 0 0.5rem 0 -0.15rem var(--color-cocoa);
+  --shadow-btn-hover: 0 0.7rem 0 -0.15rem var(--color-cocoa);
+  --shadow-btn-whatsapp: 0 0.5rem 0 -0.15rem var(--color-cocoa);
+  --shadow-card: 0 4px 20px rgba(42, 23, 14, 0.05);
+  --shadow-card-hover: 0 14px 32px rgba(42, 23, 14, 0.12);
+  --shadow-dropdown: 0 12px 36px rgba(42, 23, 14, 0.12);
+
+  /* Animations & Transitions */
+  --ease-pounce: cubic-bezier(.34, 1.56, .64, 1);
+  --ease-silk: cubic-bezier(.22, 1, .36, 1);
+  --ease-snap: cubic-bezier(.7, 0, .2, 1);
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s ease;
+  --transition-bounce: 0.45s var(--ease-pounce);
+}
+
