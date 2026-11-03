@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
 
-/**
- * Reusable Button Component matching TeddyPups reference styling
- * Variants: 'primary' | 'secondary' | 'ghost' | 'whatsapp'
- */
+
 export default function Button({
   children,
   variant = 'primary',

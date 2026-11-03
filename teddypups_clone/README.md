@@ -1,4 +1,4 @@
-# 🐾 TeddyPups UAE — High-Fidelity Web Application
+# TeddyPups UAE — High-Fidelity Web Application
 
 A pixel-accurate, interactive recreation of the [TeddyPups UAE Reference Website](https://puppy.instabizweb.com/). This project showcases luxury Korean Teacup and Teddy Bear puppies in Dubai, featuring custom SVG mascot physics, scroll-driven page animations, interactive 3D door mechanics, and page transitions.
 
@@ -111,7 +111,7 @@ TeddyPups_Assignment/
 
 ---
 
-## ⚙️ Key Technical Challenges & Custom Implementations
+##  Key Technical Challenges & Custom Implementations
 
 ### 1. Mascot Kinematics Rig (`InteractiveTeddy.jsx`)
 - **Trot Kinematics Equation**:
@@ -129,7 +129,7 @@ TeddyPups_Assignment/
 
 ---
 
-## 🛠️ How to Run & Build
+##  How to Run & Build
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (version 18.0.0 or higher recommended)
@@ -160,7 +160,7 @@ Production build compiles in ~1.9s with zero errors.
 
 ---
 
-## 🧪 Automated Testing
+##  Automated Testing
 Verified via custom headless Chrome CDP automation scripts located in `teddypups_clone/scratch/`:
 - `test_meet_section.mjs`: Tests scroll directions, tail wagging, door openings, and heading clearance.
 - `measure_paws_floor.mjs`: Tests sub-pixel mascot paw positioning on the wooden floor against reference.
